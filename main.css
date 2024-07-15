@@ -1,0 +1,30 @@
+/* Custom styles for the carousel and cards */
+
+.carousel-inner img {
+    height: 450px; /* Ajuste a altura das imagens do carousel conforme necessário */
+    width: 100%; /* Garantir que a imagem ocupe toda a largura */
+    object-fit: cover;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Ajuste conforme necessário para manter proporções */
+    object-fit: cover; /* Garante que a imagem cubra o espaço especificado */
+}
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
